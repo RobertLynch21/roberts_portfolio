@@ -141,6 +141,20 @@ body#bg-img:after {
   z-index: -1;
   background: rgba(68, 68, 68, 0.9);
 }
+.list-inline-item {
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.mb-5 {
+  font-size: 45px;
+}
+.subheading mb-3 {
+  font-size: 100px;
+}
+
+.list-inline dev-icons {
+}
 
 h1,
 h2,
