@@ -142,10 +142,10 @@ body#bg-img:after {
   background: rgba(68, 68, 68, 0.9);
 }
 .list-inline-item {
-  font-size: 2.5rem;
+  font-size: 5rem;
   list-style-type: none;
   float: left;
-  padding: 15px;
+  padding: 0px;
   margin: auto;
   width: 50%;
 }
@@ -305,7 +305,7 @@ main#home h1 {
 }
 
 #main-footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
