@@ -188,6 +188,13 @@ header {
 .text-secondary {
   color: #eece1a;
 }
+.resume {
+  color: #000;
+}
+
+.btn {
+  background-color: #eece1a;
+}
 
 main {
   padding: 4rem;
