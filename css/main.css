@@ -146,7 +146,7 @@ body#bg-img:after {
   list-style-type: none;
   float: left;
   padding: 0px;
-  margin: auto;
+  margin-bottom: 40px;
   width: 50%;
 }
 
@@ -256,10 +256,11 @@ main#home h1 {
   transition: all 0.5s ease-out;
 }
 
-.twitter-timeline {
-  margin-top: 3px;
-  margin-right: 5%;
-  float: right;
+.hero-container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  position: relative;
 }
 
 .boxes {
