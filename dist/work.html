@@ -1,143 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-112750018-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112750018-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-112750018-2");
+    </script>
 
-    gtag('config', 'UA-112750018-2');
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Roberts Portfolio" content="Web Developer" />
+    <meta
+      name="keywords"
+      content="Robert Lynch, Web developer, Programmer, Computer Science, HTML, CSS, javaScript, node.js, Front End Developer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Roberts Portfolio" content="Web Developer">
-  <meta name="keywords" content="Robert Lynch, Web developer, Programmer, Computer Science, HTML, CSS, javaScript, node.js, Front End Developer">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Work</title>
+  </head>
 
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Work</title>
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
+
+      <nav class="menu">
+        <div class="menu-branding"><div class="portrait"></div></div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="skills.html" class="nav-link"> My Skills </a>
+          </li>
+          <li class="nav-item current">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> How To Reach Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+      <h2 class="sm-heading">Check out some of my projects...</h2>
+      <div class="projects">
+        <div class="item">
+          <a href="https://haircraftbeauty.com/" target="_blank">
+            <img src="img/projects/project1.jpg" alt="Haircraft Salon" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
+          <a
+            href="https://haircraftbeauty.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Haircraft Salon
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="skills.html" class="nav-link">
-            My Skills
+          <a
+            href="https://github.com/RobertLynch21/megans_portfolio"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
           </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
+        </div>
+        <div class="item">
+          <a
+            href="https://robertlynch21.github.io/randys_lawncare/"
+            target="_blank"
+          >
+            <img src="img/projects/project2.jpg" alt="Randys Lawn Service" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
+          <a
+            href="https://robertlynch21.github.io/randys_lawncare/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Randy's Lawncare
           </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+          <a
+            href="https://github.com/RobertLynch21/randys_lawncare"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://github.com/RobertLynch21/Type-n-speak"
+            target="_blank"
+          >
+            <img src="img/projects/project3.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://github.com/RobertLynch21/Type-n-speak"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Type-N-Speak
+          </a>
+          <a
+            href="https://github.com/RobertLynch21/Type-n-speak"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://github.com/RobertLynch21/speed_typing"
+            target="_blank"
+          >
+            <img src="img/projects/project4.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://github.com/RobertLynch21/speed_typing"
+            target="_blank"
+            class="btn-light "
+          >
+            <i class="fas fa-eye "></i> Speed typing game
+          </a>
+          <a
+            href="https://github.com/RobertLynch21/speed_typing"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/RobertLynch21/blog_post" target="_blank">
+            <img src="img/projects/project5.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://github.com/RobertLynch21/blog_post"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Blog website still in production
+          </a>
+          <a
+            href="https://github.com/RobertLynch21/blog_post"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://soundhere.com/" target="_blank">
+            <img src="img/projects/project6.JPG" alt="Project" />
+          </a>
+          <a href="https://soundhere.com" target="_blank" class="btn-light">
+            <i class="fas fa-eye"></i>Street Team & Tradeshow
+          </a>
+          <a
+            href="https://github.com/RobertLynch21"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> My Github Profile
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://getmypostersup.com" target="_blank">
+            <img src="img/projects/project7.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://getmypostersup.com"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Street Team Postering
+          </a>
+          <a
+            href="https://github.com/RobertLynch21"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> My Github Profile
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://www.oklahomarealestateco.com/" target="_blank">
+            <img src="img/projects/project8.jpg" alt="Project" />
+          </a>
+          <a
+            href="https://www.oklahomarealestateco.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Sell Your House Fast In Oklahoma
+          </a>
+          <a
+            href="https://github.com/RobertLynch21"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> My Github Profile
+          </a>
+        </div>
+      </div>
+    </main>
 
-  <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Work</span>
-    </h1>
-    <h2 class="sm-heading">
-      Check out some of my projects...
-    </h2>
-    <div class="projects">
-      <div class="item">
-        <a href="http://haircraftbeauty.com/index.html" target="_blank">
-          <img src="img/projects/project1.jpg" alt="Haircraft Salon">
-        </a>
-        <a href="http://haircraftbeauty.com/index.html" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Haircraft Salon
-        </a>
-        <a href="https://github.com/RobertLynch21/megans_portfolio" class="btn-dark" target="_blank">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://robertlynch21.github.io/randys_lawncare/" target="_blank">
-          <img src="img/projects/project2.jpg" alt="Randys Lawn Service">
-        </a>
-        <a href="https://robertlynch21.github.io/randys_lawncare/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Randy's Lawncare
-        </a>
-        <a href="https://github.com/RobertLynch21/randys_lawncare" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://github.com/RobertLynch21/Type-n-speak" target="_blank">
-          <img src="img/projects/project3.jpg" alt="Project">
-        </a>
-        <a href="https://github.com/RobertLynch21/Type-n-speak" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Type-N-Speak
-        </a>
-        <a href="https://github.com/RobertLynch21/Type-n-speak" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://github.com/RobertLynch21/speed_typing" target="_blank">
-          <img src="img/projects/project4.jpg" alt="Project">
-        </a>
-        <a href="https://github.com/RobertLynch21/speed_typing" target="_blank" class="btn-light ">
-          <i class="fas fa-eye "></i> Speed typing game
-        </a>
-        <a href="https://github.com/RobertLynch21/speed_typing" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://github.com/RobertLynch21/blog_post" target="_blank">
-          <img src="img/projects/project5.jpg" alt="Project">
-        </a>
-        <a href="https://github.com/RobertLynch21/blog_post" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Blog website still in production
-        </a>
-        <a href="https://github.com/RobertLynch21/blog_post" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-    </div>
-  </main>
+    <footer id="main-footer">Copyright &copy; 2018</footer>
 
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
