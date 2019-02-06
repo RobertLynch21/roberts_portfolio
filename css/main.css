@@ -188,14 +188,6 @@ header {
 .text-secondary {
   color: #eece1a;
 }
-.resume {
-  color: #000;
-}
-
-.btn {
-  background-color: #eece1a;
-}
-
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
@@ -396,4 +388,7 @@ main#home h1 {
   .projects {
     grid-template-columns: 1fr;
   }
+}
+h1 {
+  color: yellow;
 }
